@@ -1,0 +1,37 @@
+﻿  main.cpp
+c:\users\ömer köse\source\repos\software rasterizer\software rasterizer\tgaimage.h(60): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\ömer köse\source\repos\software rasterizer\software rasterizer\main.cpp(86): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\ömer köse\source\repos\software rasterizer\software rasterizer\main.cpp(86): warning C4244: '=': conversion from 'const _Ty' to 'unsigned char', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\ömer köse\source\repos\software rasterizer\software rasterizer\main.cpp(140): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\ömer köse\source\repos\software rasterizer\software rasterizer\main.cpp(192): warning C4244: '=': conversion from 'const _Ty' to 'T', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\ömer köse\source\repos\software rasterizer\software rasterizer\geometry.h(64): warning C4244: '*=': conversion from 'const U' to 'T', possible loss of data
+          with
+          [
+              U=double
+          ]
+          and
+          [
+              T=float
+          ]
+  c:\users\ömer köse\source\repos\software rasterizer\software rasterizer\main.cpp(166): note: see reference to function template instantiation 'vec<3,float> operator *<3,float,double>(vec<3,float>,const U &)' being compiled
+          with
+          [
+              U=double
+          ]
+  Software Rasterizer.vcxproj -> C:\Users\Ömer Köse\source\repos\Software Rasterizer\Debug\Software Rasterizer.exe
